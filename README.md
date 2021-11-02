@@ -5,12 +5,13 @@ This is a better and simpler implementation for "SRHEN: Stepwise-Refining Homogr
 **MACE=1.18** on Synthetic COCO dataset. (MACE=9.19 in the original paper, without using the coarse-to-fine framework).
 
 If you find this work useful, please consider citing:
+
 >@inproceedings{li2020srhen,  
->&nbsp;&nbsp;&nbsp;&nbsp;title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
->&nbsp;&nbsp;&nbsp;&nbsp;author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
->&nbsp;&nbsp;&nbsp;&nbsp;booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
->&nbsp;&nbsp;&nbsp;&nbsp;pages={3063--3071},  
->&nbsp;&nbsp;&nbsp;&nbsp;year={2020}  
+>title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
+>author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
+>booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
+>pages={3063--3071},  
+>year={2020}  
 >}  
 
 # Some modifications
