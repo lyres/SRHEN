@@ -29,13 +29,13 @@ If you find this work useful, please consider citing:
 
 # Preparation
 1. Download COCO dataset. https://paperswithcode.com/dataset/coco.
-2. Change the directory setting in **"preprocess_images_offline.py"**, i.e., **DIR_IMG** and **DIR_OUT** according to your own directory.
-3. Run **"python preprocess_images_offline.py"**.
+2. Change the directory setting in `"preprocess_images_offline.py"`, i.e., `DIR_IMG` and `DIR_OUT` according to your own directory.
+3. Run `"python preprocess_images_offline.py"`.
 
 # Train
-1. Change the directory setting in **"train.py"**, i.e., **DIR_IMG** and **DIR_MOD** for train images and trained models, respectively.
-2. Run **"python train.py"**.
+1. Change the directory setting in `"train.py"`, i.e., `DIR_IMG` and `DIR_MOD` for train images and trained models, respectively.
+2. Run `"python train.py"`.
 
 # Test
-1. Change the directory setting in **"test.py"**, i.e., **DIR_IMG** and **DIR_MOD** for test images and saved models, respectively.
-2. Run **"python test.py"**.
+1. Change the directory setting in `"test.py"`, i.e., `DIR_IMG` and `DIR_MOD` for test images and saved models, respectively.
+2. Run `"python test.py"`.
