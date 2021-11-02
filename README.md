@@ -6,11 +6,11 @@ This is a better and simpler implementation for "SRHEN: Stepwise-Refining Homogr
 
 If you find this work useful, please consider citing:
 >@inproceedings{li2020srhen,  
->  title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
->  author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
->  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
->  pages={3063--3071},  
->  year={2020}  
+>&nbsp;&nbsp;&nbsp;&nbsp;title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
+>&nbsp;&nbsp;&nbsp;&nbsp;author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
+>&nbsp;&nbsp;&nbsp;&nbsp;booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
+>&nbsp;&nbsp;&nbsp;&nbsp;pages={3063--3071},  
+>&nbsp;&nbsp;&nbsp;&nbsp;year={2020}  
 >}  
 
 # Some modifications
@@ -19,7 +19,7 @@ If you find this work useful, please consider citing:
 3. Patch pairs are generated online rather then offline, to alleviate the overfitting problem.
 4. We compute a global cost volume (i.e., the correspondence map in the paper) rather than a local one.
 5. We use inner product rather than cosine similarity to compute the cost volume.
-6. Since this implementation has achieved a very high performance, we drop the coarse-to-fine framework and the pyramidal supervision scheme.
+6. The coarse-to-fine framework and the pyramidal supervision scheme is NOT included in this implementation.
 
 # Requirements
 * python 3.6.7
