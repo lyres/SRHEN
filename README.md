@@ -5,15 +5,15 @@ This is a better and simpler implementation for "SRHEN: Stepwise-Refining Homogr
 **MACE=1.18** on Synthetic COCO dataset. (MACE=9.19 in the original paper, without using the coarse-to-fine framework).
 
 If you find this work useful, please consider citing:
-
->@inproceedings{li2020srhen,  
->title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
->author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
->booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
->pages={3063--3071},  
->year={2020}  
->}  
-
+```
+@inproceedings{li2020srhen,  
+title={SRHEN: Stepwise-Refining Homography Estimation Network via Parsing Geometric Correspondences in Deep Latent Space},  
+author={Li, Yi and Pei, Wenjie and He, Zhenyu},  
+booktitle={Proceedings of the 28th ACM International Conference on Multimedia},  
+pages={3063--3071},  
+year={2020}  
+}  
+```
 # Some modifications
 1. We use pretrained ResNet34 instead of VGG-like network as backbone.
 2. COCO images are resized to 320X320 rather than 320X240, to better avoid black border.
