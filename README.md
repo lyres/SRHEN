@@ -39,3 +39,7 @@ year={2020}
 # Test
 1. Change the directory setting in `"test.py"`, i.e., `DIR_IMG` and `DIR_MOD` for test images and saved models, respectively.
 2. Run `"python test.py"`.
+
+# Trained model
+Link: https://pan.baidu.com/s/1u-9Bu72OY_wC7CoocorZXQ?pwd=94rq
+Extraction Code: 94rq
