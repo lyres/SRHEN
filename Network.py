@@ -42,8 +42,10 @@ class HNet(nn.Module):
     @staticmethod
     def _cost_volume(x1, x2):
         N, C, H, W = x1.shape
+        x1 = F.normalize(x1)
+        x2 = F.normalize(x2)
         x1 = x1.reshape(N, C, H*W)
         x2 = x2.reshape(N, C, H*W)
-        cv = torch.bmm(x1.transpose(1, 2), x2) / C
+        cv = torch.bmm(x1.transpose(1, 2), x2)
         cv = cv.reshape(N, H*W, H, W)
         return cv
