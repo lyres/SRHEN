@@ -19,8 +19,7 @@ year={2020}
 2. COCO images are resized to 320X320 rather than 320X240, to better avoid black border.
 3. Patch pairs are generated online rather then offline, to alleviate the overfitting problem.
 4. We compute a global cost volume (i.e., the correspondence map in the paper) rather than a local one.
-5. We use inner product rather than cosine similarity to compute the cost volume.
-6. The coarse-to-fine framework and the pyramidal supervision scheme is NOT included in this implementation.
+5. The coarse-to-fine framework and the pyramidal supervision scheme is NOT included in this implementation.
 
 # Requirements
 * python 3.6.7
